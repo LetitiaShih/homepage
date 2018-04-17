@@ -10,3 +10,6 @@ npm-debug.log
 # Docker
 Dockerfile
 docker-compose.yml
+
+# ignore video files
+*.[m|M][p|P]4
