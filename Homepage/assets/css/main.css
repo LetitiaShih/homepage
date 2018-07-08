@@ -1634,6 +1634,15 @@
 		margin-top: -0.6em;
 	}
 
+	section header::before
+	{
+		content: " ";
+		display: block;
+		border: 0.5px solid #303030;
+		margin: 40px auto 20px auto;
+	}
+
+
 /* Form */
 
 	form {
