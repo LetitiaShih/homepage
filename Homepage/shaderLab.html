@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/shaderLab.css" />
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	</head>
 
@@ -27,7 +28,14 @@
 				</div>
 					<div class="collapse navbar-collapse" id="myNavbar">
 						<ul class="nav navbar-nav">
-						<li><a href="industrial.html">Industrial Work</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Industrial Work
+							<span class="caret"></span></a>
+							<div class="dropdown-content">
+								<a href="scary.html">Scary Beasties</a>
+								<a href="zappar.html">Zappar</a>
+							</div>
+						</li>
 						<li class="active"><a href="shaderLab.html">Shader Lab</a></li>
 						<li><a href="personal.html">Personal Work</a></li>
 						<li><a href="art.html">Art Work</a></li>
@@ -48,12 +56,14 @@
 					<div class="slick-title"><h2>Recent Work</h2></div>
 				</header> -->
 				<div>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/K92eYtdsreU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>							<h3>Demo: Surface Shader - StencilBuffer</h3>
-					<h2>Demo: Surface Shader - StencilBuffer</a></h2>
+					<!-- <a href="SpaceShooter" class="icon"> -->
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/4OGufRHL_-Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<h2>Surface + V/F Shader - Glass Effect</h2>
+					<!-- </a> -->
 				</div>
 				<div>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/NpCg9derQn0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>							<h3>Demo: Surface Shader - Rim Light</h3>
-					<h2>Demo: Surface Shader - Rim Light</h2>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/K92eYtdsreU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		
+					<h2>Demo: Surface Shader - StencilBuffer</a></h2>
 				</div>
 			</section>
 
@@ -101,9 +111,16 @@
 				<!-- Thumbnails -->
 				<section class="thumbnails">
 					<div>
+						<!-- <a href="SpaceShooter" class="icon"> -->
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/4OGufRHL_-Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<h3>Surface + V/F Shader - Glass Effect</h3>
+						<!-- </a> -->
+					</div>
+					<div>
 						<!-- <a href="https://youtu.be/RW07F-FL-sE" class="icon"> -->
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/K92eYtdsreU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>							<h3>Demo: Surface Shader - StencilBuffer</h3>
-						</a>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/K92eYtdsreU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>							
+							<h3>Surface Shader - StencilBuffer</h3>
+						<!-- </a> -->
 						<!-- <a href="https://youtu.be/g33mftq_WWI" class="icon">
 							<iframe width="373" height="210" src="https://youtu.be/NpCg9derQn0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 							<h3>Demo: Surface Shader - Rim Light</h3>
@@ -111,8 +128,9 @@
 					</div>
 					<div>
 						<!-- <a href="https://youtu.be/g33mftq_WWI" class="icon"> -->
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/NpCg9derQn0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>							<h3>Demo: Surface Shader - Rim Light</h3>
-						</a>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/NpCg9derQn0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>							
+							<h3>Surface Shader - Rim Light</h3>
+						<!-- </a> -->
 						<!-- <a href="ArgonAssault" class="icon">
 							<img src="images/thumbs/argon_assault.png" alt="" />
 							<h3>Argon Assault</h3>
@@ -122,12 +140,6 @@
 							<h3>2D Rough Like</h3>
 						</a> -->
 					</div>
-					<!-- <div>
-						<a href="SpaceShooter" class="icon">
-							<img src="images/thumbs/space_shooter.png" alt="" />
-							<h3>Space Shooter</h3>
-						</a>
-					</div> -->
 				</section>
 			</section>
 
